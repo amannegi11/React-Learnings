@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.flipped{
+    transform: rotateY(90deg);
+}
+
+.active{
+    transform: rotateY(0deg);
+}
+
+.box img{
+    transition: transform 1s ease;
+}
+
+.box{
+    border: 1px solid white;
+    background-image: url('/public/memory/question.png');
+    background: red;
+}
