@@ -21,8 +21,9 @@ import Cart from './components/EXPLORE/RTK/Cart'
 
 const App = () => {
   return (
-    <BrowserRouter>
-      <NavBar/>
+ 
+      <>
+        <NavBar/>
       
       <Routes>
         <Route path='/' element={<HomePage/>}/>
@@ -43,7 +44,8 @@ const App = () => {
         <Route path='/explore/rtk/cart' element={<Cart/>}/>
         <Route path="*" element={<Error/>}/>
       </Routes>
-    </BrowserRouter>
+      </>
+   
       
   
   )
