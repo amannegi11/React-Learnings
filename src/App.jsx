@@ -23,8 +23,7 @@ const App = () => {
   return (
  
       <>
-        <NavBar/>
-      
+      <NavBar/>
       <Routes>
         <Route path='/' element={<HomePage/>}/>
         <Route path='/tools' element={<Tools/>}/>

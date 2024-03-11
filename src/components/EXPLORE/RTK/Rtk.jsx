@@ -20,12 +20,12 @@ const Rtk = () => {
   return (
     <div className='w-11/12 mx-auto flex justify-center items-center flex-col'>
         <h4 className='text-4xl font-serif text-lime-600 border-4 p-4 text-center mb-8'>Shopping Cart Using ReduxToolKit</h4>
-        <div className='flex justify-between w-8/12 mb-16 border-b-8 '>
-            <h3 className='text-4xl font-mono text-yellow-500 px-8'>Products</h3>
+        <div className='flex justify-between lg:w-8/12 mb-16 border-b-2 w-full '>
+            <h3 className='text-4xl font-mono text-yellow-500 px-2'>Products</h3>
             <div className='px-8 relative '>
                 <Link to={"/explore/rtk/cart"}>
                  { cartItems.length ? <span className='w-8 h-8 text-xl text-center absolute right-8 bottom-8 text-red-100 font-serif font-extrabold bg-red-600 rounded-full'>{cartItems.length }</span> : <span></span>}
-                <AiOutlineShoppingCart className='text-6xl '/>
+                <AiOutlineShoppingCart className='text-4xl '/>
                 </Link>
             </div>
         </div>
