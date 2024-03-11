@@ -24,7 +24,7 @@ const Rtk = () => {
             <h3 className='text-4xl font-mono text-yellow-500 px-2'>Products</h3>
             <div className='px-8 relative '>
                 <Link to={"/explore/rtk/cart"}>
-                 { cartItems.length ? <span className='w-8 h-8 text-xl text-center absolute right-8 bottom-8 text-red-100 font-serif font-extrabold bg-red-600 rounded-full'>{cartItems.length }</span> : <span></span>}
+                 { cartItems.length ? <span className='w-8 h-8 text-xl text-center absolute right-6 bottom-6 text-red-100 font-serif font-extrabold bg-red-600 rounded-full'>{cartItems.length }</span> : <span></span>}
                 <AiOutlineShoppingCart className='text-4xl '/>
                 </Link>
             </div>
