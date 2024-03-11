@@ -3,7 +3,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 const Template = ({ data ,about,Category}) => {
     return (
-        <div>
+        <div className='w-8/12 mx-auto'>
             
             <h3 className='text-center text-4xl font-serif font-bold text-lime-500 mb-4 '>{Category}</h3>
             <div className='w-[90%] md:w-[50%] text-center mx-auto mb-8 font-semibold text-xl text-pink-400'>{about}</div>
